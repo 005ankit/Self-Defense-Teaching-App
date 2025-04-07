@@ -28,7 +28,7 @@ This app is designed to promote personal safety by offering users easy access to
 |----------------|----------------------------------------------|
 | Java            | Core programming language for the app       |
 | Android Studio  | Primary IDE used for development            |
-| Firebase        | Backend services for data and auth          |
+| Supabase        | Backend services for data and auth          |
 | XML             | Layout and UI design                        |
 | VideoView       | For playing tutorial videos                 |
 | RecyclerView    | To display lists like sessions and tips     |
