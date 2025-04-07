@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RatingBarTheme">
+        <item name="colorAccent">#FFD700</item>
+        <item name="android:progressDrawable">@drawable/rating_bar_progress</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:maxHeight">48dp</item>
+    </style>
+
+</resources>

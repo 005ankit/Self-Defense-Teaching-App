@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_add_video"
+        android:title="Add Video" />
+    <item
+        android:id="@+id/menu_add_tips"
+        android:title="Add Safety Tips" />
+    <item
+        android:id="@+id/menu_add_live"
+        android:title="Add Live Sessions" />
+</menu>

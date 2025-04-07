@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/gradient_button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient xmlns:android="http://schemas.android.com/apk/res/android"
+        android:startColor="@color/primary"
+        android:endColor="@color/primary_dark"
+        android:angle="45" />
+
+    <corners android:radius="12dp" />
+
+</shape>

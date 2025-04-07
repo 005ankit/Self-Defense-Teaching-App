@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/emergency_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Actions"
+        android:textColor="#B71C1C"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Emergency SOS Button -->
+    <Button
+        android:id="@+id/btn_emergency_sos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="24dp"
+
+        android:elevation="12dp"
+        android:background="@drawable/gradient_sos"
+        android:text="Emergency SOS"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_sos"
+        android:drawablePadding="16dp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/emergency_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Share Live Location Button -->
+    <Button
+        android:id="@+id/btn_share_location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp"
+
+        android:elevation="12dp"
+        android:background="@drawable/gradient_tips"
+        android:text="Share Live Location"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_location"
+        android:drawablePadding="16dp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@id/btn_emergency_sos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Safety Guidelines Button -->
+    <Button
+        android:id="@+id/btn_safety_guidelines"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="16dp"
+        android:elevation="12dp"
+        android:background="@drawable/rounded_button_success"
+        android:drawableStart="@drawable/ic_guidelines"
+        android:drawablePadding="16dp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:text="Safety Guidelines"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/btn_share_location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Footer -->
+    <TextView
+        android:id="@+id/footer_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stay Safe. Empower Yourself."
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

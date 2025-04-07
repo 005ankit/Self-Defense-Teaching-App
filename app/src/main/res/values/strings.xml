@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="btn_add_step">Add Step</string>
+    <string name="btn_select_image">Select Image</string>
+    <string name="hint_title">Enter Video Title</string>
+    <string name="hint_description">Enter Video Description</string>
+    <string name="hint_step_description">Step Description</string>
+    <string name="app_name">Self Defense</string>
+</resources>

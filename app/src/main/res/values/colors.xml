@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#F5F5F5</color>
+    <color name="white_translucent">#B3FFFFFF</color>
+    <color name="primary">#6200EE</color>
+    <color name="secondary">#3700B3</color>
+
+
+    <color name="premium_background">#F9FAFC</color>
+    <color name="premium_text_primary">#212121</color>
+    <color name="premium_text_secondary">#616161</color>
+    <color name="premium_icon_tint">#757575</color>
+    <color name="premium_button_primary">#FF5733</color>
+    <color name="premium_button_secondary">#FF8C42</color>
+
+
+    <color name="teal_700">#018786</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="backgroundColor">#121212</color>
+    <!-- Primary Color -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="hint_color">#808080</color>
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#333333</color>
+    <color name="colorTextSecondary">#757575</color>
+
+    <!-- Background Colors -->
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorCardBackground">#FFFFFF</color>
+
+    <!-- Button Colors -->
+    <color name="colorSecondary">#FF4081</color>
+    <color name="secondary_dark">#018786</color>
+
+    <color name="background_light">#F5F5F5</color>
+    <color name="primary2">#2196F3</color>
+    <color name="primary_light">#64B5F6</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="secondary_text">#757575</color>
+    <color name="primary_text">#212121</color>
+
+    <!-- Primary Color for your App -->
+    <color name="primaryColor">#6200EE</color> <!-- Example: Purple -->
+
+    <!-- Secondary Text/Gray Color -->
+    <color name="gray">#888888</color> <!-- Example: Medium Gray -->
+
+    <!-- Light Gray Color for Divider or Backgrounds -->
+    <color name="grayLight">#E0E0E0</color> <!-- Example: Light Gray -->
+    <!-- Primary Colors -->
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text_color">#757575</color>
+
+    <!-- Header and Card Colors -->
+    <color name="header_background_color">#4CAF50</color>
+    <color name="card_background_color">#FFFFFF</color>
+
+    <!-- Button Colors -->
+    <color name="button_normal_color">#4CAF50</color>
+    <color name="button_pressed_color">#388E3C</color>
+    <color name="button_text_color">#FFFFFF</color>
+
+    <!-- Notification Time Picker Background -->
+    <color name="time_picker_background_color">#ECEFF1</color>
+
+    <!-- Accent Colors -->
+    <color name="accent_color">#FF5722</color>
+    <color name="divider_color">#BDBDBD</color>
+
+    <!-- Others -->
+    <color name="error_color">#D32F2F</color>
+    <color name="success_color">#388E3C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_light_primary">#3F51B5</color>
+    <color name="button_primary_color">#FF5722</color>
+
+</resources>

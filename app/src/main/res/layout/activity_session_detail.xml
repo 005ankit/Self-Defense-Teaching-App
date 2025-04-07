@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_background2"
+        android:padding="16dp"
+        android:elevation="4dp">
+
+        <!-- Session Title -->
+        <TextView
+            android:id="@+id/tv_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Session Title"
+            android:textColor="@color/primary_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_slab_bold" />
+
+        <!-- Host Details -->
+        <TextView
+            android:id="@+id/tv_detail_host"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Hosted by: John Doe"
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_medium" />
+
+        <!-- Session Date & Time -->
+        <TextView
+            android:id="@+id/tv_detail_datetime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Date: Dec 25, 2024\nTime: 5:00 PM"
+            android:textColor="@color/secondary_text"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_medium" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/tv_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Description: Learn advanced techniques..."
+            android:textColor="@color/primary_text"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp"
+            android:fontFamily="@font/roboto_regular" />
+
+        <!-- Join Online Button -->
+        <Button
+            android:id="@+id/btn_join_online"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_button2"
+            android:text="Join Online"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_medium" />
+
+        <!-- Navigate to Location Button -->
+        <Button
+            android:id="@+id/btn_navigate_offline"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/rounded_button2"
+            android:text="Navigate to Location"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_medium" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp"
+    android:background="@drawable/rich_gradient_background2">
+
+    <!-- Header Section with Back Icon and Page Heading -->
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:paddingVertical="16dp"
+        android:gravity="center_vertical"
+        android:elevation="8dp">
+
+        <!-- Back Icon -->
+        <ImageView
+            android:id="@+id/backIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_back"
+            android:layout_marginStart="8dp"
+            android:contentDescription="Back"
+            app:tint="#FFFFFF" />
+
+        <!-- Page Heading -->
+        <TextView
+            android:id="@+id/pageHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Profile"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/roboto_slab_bold" />
+    </LinearLayout>
+
+    <!-- Divider -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="367dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/header"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/divider_with_gradient" />
+    <!-- Form Content -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:fillViewport="true">
+
+        <!-- Content Container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:elevation="6dp">
+
+            <!-- Profile Image Section -->
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:background="@drawable/circle_background_with_shadow"
+                android:clipToOutline="true" />
+
+            <!-- Upload Image Button -->
+            <Button
+                android:id="@+id/btnUploadImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/rounded_secondary_button"
+                android:text="Change Photo"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:paddingHorizontal="16dp"
+                android:elevation="4dp" />
+
+            <!-- Username Section -->
+            <TextView
+                android:id="@+id/headingUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Username"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#333333" />
+
+            <EditText
+                android:id="@+id/editTextUsername"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your username"
+                android:padding="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_input_background2"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <!-- Emergency Contact Section -->
+            <TextView
+                android:id="@+id/headingEmergencyContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Emergency Contact"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#333333" />
+
+            <EditText
+                android:id="@+id/editTextEmergencyContact"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter emergency contact"
+                android:padding="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_input_background2"
+                android:inputType="phone"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <!-- Email Section -->
+            <TextView
+                android:id="@+id/headingEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Email"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#333333" />
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email"
+                android:padding="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/rounded_input_background_disabled"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:focusable="false" />
+
+            <!-- Save Profile Button -->
+            <Button
+                android:id="@+id/btnSaveProfile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Save Profile"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_primary_button"
+                android:layout_marginTop="32dp"
+                android:elevation="6dp"
+                android:textSize="16sp" />
+
+            <!-- Progress Bar -->
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
